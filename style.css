@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    font-size: 100%;
+    /*background: linear-gradient(68.15deg, #030016 50.00%, #09033f 50.00%);*/
+    background-color: #13131F ;
+    overflow-x:hidden;
+}
+
+.cabecalho {
+    
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.cabecalho-imagem {
+    height: 72px;
+
+}
+
+.cabecalho-menu {
+   
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-item{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+
+.conteudo {
+
+    padding: 2cm;
+    margin-bottom: 50px; 
+    border-top: 0.4px solid #201105; 
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+}
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    
+}
+.conteudo-principal-escrito-titulo {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 65px;
+    color: rgb(255, 255, 255);;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgb(17, 3, 83);
+}
+.conteudo-principal-escrito-botao{
+  background-color: #233494;
+  width: 300px;
+  height: 50px;  
+  border: none;
+  box-shadow: 4px 5px 4px rgba(177, 65, 65, 0.25);
+  border-radius: 100px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 24px;  
+  color: #000000;
+
+}
+
+
+.section-sobre-mim{
+    padding-top: 5cm;
+    height:180px;
+    margin:auto;
+    font-family: 'Libre Baskerville', serif;
+    color:gray; 
+}
+.div-sobre-mim{
+    display: flex;
+    flex-direction: column;
+}
+.h2-sobre-mim{
+    color:#FFFFFF;
+    font-size: 30px;
+    margin:auto;
+    height:50px;
+}
+.texto-sobre-mim{
+    font-size: 15px;
+    
+}
+
+.habilidades{
+    padding-top: 400px;
+    width:700px;
+    margin:auto;
+    font-family: 'Libre Baskerville', serif;
+    color:gray;    
+}
+.div-habilidades{
+    padding-top: 2cm;
+    display: flex;
+    flex-direction: column;
+}
+.texto-habilidades{
+    height: 40px;
+    color:#FFFFFF;
+    font-size: 30px;
+    margin:auto;
+    
+}
+
+.css{
+    width: 175px;
+    
+}
+.projetos{
+    width:700px;
+    height:180px;
+    margin:auto;
+    font-family: 'Libre Baskerville', serif;
+    color:gray; 
+}
+.div-texto-projetos{
+    
+    padding-top: 7cm;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.texto-projetos{
+    padding: 2cm;
+    margin: auto;
+    color:#FFFFFF;
+    font-size: 30px;
+    
+}
+.repositorio{
+    margin-top: 7px;
+    text-align: center;
+}
+.footer{ 
+   margin-top: 800px;
+}
+.linha{
+    background-color: gray;
+    padding: 1px;
+}
+.test{
+    padding: 20px;
+    color:gray;
+    margin-left: 100px;
+    font-family: 'Libre Baskerville', serif;
+}
