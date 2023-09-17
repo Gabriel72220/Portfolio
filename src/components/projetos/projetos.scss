@@ -1,0 +1,143 @@
+.projetos {
+    max-width: 700px;
+    margin: auto;
+    color: gray;
+  }
+  
+  .div-texto-projetos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .texto-projetos {
+    padding: 2cm;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 30px;
+  }
+  
+  .repositorio {
+    margin-top: 7px;
+    text-align: center;
+  }
+  
+  .linha {
+    background-color: gray;
+    padding: 1px;
+  }
+  
+  .div-proj {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+  }
+  
+  .projetos_conteudo {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+
+  }
+  
+  .projetos_conteudo p {
+    margin: 0; 
+  }
+  .projetos_conteudo img {
+    padding-top: 10%; 
+        padding:20px;
+
+  }
+
+.ReactModal__Content {
+  background-color: #13131F !important;
+  border-radius: 50%;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.ReactModal__Content button {
+  background-color: #c20303;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px; 
+  font-size: 18px;
+  position: absolute;
+  top: 10px; 
+  right: 10px;
+  cursor: pointer;
+}
+
+
+.elemento_pai {
+  
+  display: flex;
+  flex-direction: row; 
+  gap: 10px !important; 
+}
+.elemento_pai img {
+  width: 300px; 
+  height: 180px; 
+}
+
+.projetos_feitos {
+  padding: 10px;
+  min-height: 600px; 
+  border-radius: 2%;
+  width: 300px;
+  background-color: #262641;
+}
+
+.text{
+  margin-top: 20px;
+  padding: 7%;
+  color: rgb(177, 163, 163);
+}
+.projetos_feitos img {
+border-radius: 2%;
+}
+@media (max-width: 756px) {
+  .elemento_pai {
+    flex-direction: column; /* Altere a direção para coluna em telas menores */
+    height: 100vh;
+    padding-top: 40%;
+  }
+
+  /* Ajuste o espaçamento entre os elementos internos, se necessário */
+  .elemento_pai > .projetos_feitos {
+    padding-top: 5%;
+  }
+
+  /* Adicione margem superior ao segundo projeto */
+  .elemento_pai > .projetos_feitos + .projetos_feitos {
+    margin-top: 10px; /* Ajuste o valor conforme necessário */
+  }
+  .projetos_feitos {
+    width: auto;
+    height: auto;
+    min-height: auto;
+  }
+  .ReactModal__Content button {
+    top: 30px;  
+  }
+  .div-proj {
+    display: flex;
+    justify-content: center; /* Centralize horizontalmente */
+    align-items: center; /* Centralize verticalmente */
+    /* Adicione outras propriedades de estilo conforme necessário */
+  }
+  
+}
+
+
+
