@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Importe BrowserRouter, Routes e Route
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Conteudo from './components/Inicio/conteudo';
 import Sobre_mim from './components/sobre_mim/sobre_mim';

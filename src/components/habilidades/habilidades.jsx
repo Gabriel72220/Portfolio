@@ -1,4 +1,4 @@
-import React from 'react'; // Certifique-se de importar o React
+import React from 'react'; 
 import './habilidades.scss'
 import c from '../img/c.png'
 import python from '../img/python.png'
@@ -16,7 +16,7 @@ function Habilidades() {
   <div className="div-habilidades" id="Habilidades">
     <h2 className="texto-habilidades">habilidades</h2>
   </div>
-  <div className="imagens-habilidades"> {/* Adicione a classe "imagens-habilidades" aqui */}
+  <div className="imagens-habilidades">
     <img className="img" src={c} alt="C" style={{ height: '160px',width: '160px' }} />
     <img className="img" src={python} alt="Python" style={{ height: '160px',width: '160px' }}/>
     <img className="img" src={js} alt="Java script" style={{ height: '160px',width: '160px' }} />

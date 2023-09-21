@@ -21,14 +21,14 @@ body {
 .cabecalho {
   display: flex;
   justify-content: space-around;
-  align-items: center; /* Adicione alinhamento vertical */
+  align-items: center; 
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   padding: 24px;
-  z-index: 100; /* Garanta que o cabeçalho fique acima do conteúdo */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Adicione sombra */
+  z-index: 100; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .cabecalho-menu {

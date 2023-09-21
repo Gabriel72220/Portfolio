@@ -38,7 +38,6 @@ function Projetos() {
         </h1>
       </div>
       <div className="div-proj">
-        {/* Quatro ícones clicáveis com a mesma imagem */}
         <div className="projetos_conteudo">
           <p>Landing pages</p>
           <img
@@ -90,7 +89,6 @@ function Projetos() {
         </a>
       </div>
 
-      {/* Modal */}
       <ReactModal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
