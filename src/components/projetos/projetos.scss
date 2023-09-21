@@ -108,19 +108,17 @@ border-radius: 2%;
 }
 @media (max-width: 756px) {
   .elemento_pai {
-    flex-direction: column; /* Altere a direção para coluna em telas menores */
+    flex-direction: column;
     height: 100vh;
     padding-top: 40%;
   }
 
-  /* Ajuste o espaçamento entre os elementos internos, se necessário */
   .elemento_pai > .projetos_feitos {
     padding-top: 5%;
   }
 
-  /* Adicione margem superior ao segundo projeto */
   .elemento_pai > .projetos_feitos + .projetos_feitos {
-    margin-top: 10px; /* Ajuste o valor conforme necessário */
+    margin-top: 10px; 
   }
   .projetos_feitos {
     width: auto;
@@ -132,9 +130,9 @@ border-radius: 2%;
   }
   .div-proj {
     display: flex;
-    justify-content: center; /* Centralize horizontalmente */
-    align-items: center; /* Centralize verticalmente */
-    /* Adicione outras propriedades de estilo conforme necessário */
+    justify-content: center; 
+    align-items: center;
+
   }
   
 }

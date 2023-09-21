@@ -12,13 +12,13 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Header />
-      <Routes> {/* Use o componente Routes para envolver suas rotas */}
+      <Routes> 
         <Route path="/" element={<Conteudo />} />
         <Route path="/sobre-mim" element={<Sobre_mim />} />
         <Route path="/Habilidades" element={<Habilidades />} />
         <Route path="/Projetos" element={<Projetos />} />
       </Routes>
-      <Footer /> {/* Renderize o Footer aqui, fora do Routes */}
+      <Footer />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

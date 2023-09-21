@@ -6,8 +6,8 @@
     height: 100vh;
     color: gray;
     text-align: center;
-    max-width: 700px !important; /* Largura máxima desejada para o conteúdo */
-    margin: 0 auto; /* Centralizar horizontalmente */
+    max-width: 700px !important;
+    margin: 0 auto; 
   }
   
   .texto-habilidades {
@@ -18,13 +18,13 @@
   
   .imagens-habilidades {
     display: flex;
-    flex-wrap: wrap; /* Permite que as imagens caiam para a próxima linha */
-    justify-content: center; /* Centraliza horizontalmente as imagens */
-    margin-top: 20px; /* Espaçamento superior entre o texto e as imagens */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
   }
   .img {
-    margin: 0 10px; /* Espaçamento horizontal entre as imagens */
-    max-width: 100%; /* Imagens não excederão a largura máxima da div pai */
+    margin: 0 10px;
+    max-width: 100%; 
   }
   @media (max-width: 439px) {
     .habilidades {

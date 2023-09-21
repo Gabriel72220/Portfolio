@@ -18,10 +18,10 @@
   .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center; /* Centraliza horizontalmente */
-    height: 100vh; /* Definir altura para ocupar toda a tela */
-    text-align: center; /* Centraliza o texto horizontalmente */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    text-align: center;
   }
   
 .conteudo-principal-escrito-titulo {
@@ -57,7 +57,7 @@
 
 .redes_sociais {
     display: flex;
-    justify-content: flex-end; /* Alinhe à direita */
+    justify-content: flex-end; 
     gap: 20px;
     
     img {

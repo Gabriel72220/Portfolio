@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   color: gray;
-  text-align: center; /* Centraliza horizontalmente */
+  text-align: center;
 }
 
 .h2-sobre-mim {
@@ -17,14 +17,13 @@
 .texto-sobre-mim {
   font-size: 15px;
   max-width: 700px;
-  min-width: 400px; /* Pode ser ajustado conforme necessário */
+  min-width: 400px;
 }
 
-/* Estilos para tornar o texto responsivo em telas menores */
 @media (max-width: 404px) {
   .texto-sobre-mim {
-    font-size: 14px; /* Tamanho de fonte menor para telas menores */
-    max-width: 90%; /* Ajuste a largura máxima conforme necessário */
-    min-width: auto; /* Remova o mínimo para permitir ajuste automático */
+    font-size: 14px;
+    max-width: 90%;
+    min-width: auto;
   }
 }
